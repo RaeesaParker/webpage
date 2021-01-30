@@ -1,0 +1,630 @@
+
+
+
+/* ________________________ TAG SELECTORS ______________________ */
+
+
+body {
+
+  background-color: white ;
+
+  margin: 0;
+
+
+}
+
+
+
+
+
+h1 {
+
+  color: #206a5d;
+
+  font-family: 'Tangerine', cursive;
+
+  font-size: 17vh;
+
+  margin: 0 0 2vh 0;
+
+}
+
+
+
+
+h2 {
+
+  color: #206a5d;
+
+  font-family: 'Montserrat', sans-serif;
+
+  font-size: 6vh;
+
+  left: 50%;
+
+  position: absolute;
+
+  transform: translate(-50% , 0);
+
+}
+
+
+
+
+
+h3 {
+
+  color: #53bd84;
+
+  font-family: 'Montserrat', sans-serif;
+
+  font-size: 3.5vh;
+
+  margin: 0 0 0 0;
+
+  text-align: center;
+
+}
+
+
+
+hr {
+
+  border-style: dotted none none;
+
+  border-top-color:  #53bd84 ;
+
+  width: 8% ;
+
+  border-top-width: 7px ;
+
+
+}
+
+
+img {
+
+  max-width: 100%;
+
+  max-height: 100%;
+
+}
+
+
+
+
+
+
+
+/* _________________________________________ CLASS SELECTORS ________________________________________ */
+
+
+
+/* ------- Componants ------- */
+
+.anchor{
+
+  text-decoration: none;
+
+}
+
+
+
+
+.emoji{
+
+  font-size: 5vh;
+
+  vertical-align: middle;
+
+}
+
+
+.hr_sections{
+
+  bottom: 5vh;
+
+  left: 50%;
+
+  position:absolute;
+
+  transform: translate(-50% , 0);
+
+}
+
+
+.section{
+
+  height: 100vh;
+
+  position: relative;
+
+  width: 100vw;
+
+}
+
+
+.h2_box{
+
+  background-color: #ccedd2;
+
+  display: block;
+
+  padding: 5vh 0;
+
+  text-align: center;
+
+  width: 70vw;
+
+}
+
+
+.alignment_left{
+
+  text-align: left;
+
+}
+
+
+
+
+
+
+
+/* ------- Divs ------- */
+
+
+.div_bottom_box{
+
+  background-color: #ccedd2;
+
+  display: block;
+
+  height: 20vh;
+
+  position: absolute;
+
+  bottom: 0;
+
+  width: 100vw;
+
+}
+
+
+
+.div_contact{
+
+  background-color: #ccedd2;
+
+  display: block;
+
+  height: 30vh;
+
+  left: 50%;
+
+  position: relative;
+
+  top: 10vh;
+
+  transform: translate(-50%, 0);
+
+  width: 50vw;
+
+}
+
+
+
+.div_design{
+
+  width:100vw;
+
+  height: 30vh;
+
+  position: absolute;
+
+  top: 30vh;
+
+}
+
+
+.div_content{
+
+  height: 30vh;
+
+  position: absolute;
+
+  width: 50vw;
+
+}
+
+
+
+.div_develop{
+
+  width:100vw;
+
+  height: 30vh;
+
+  position: absolute;
+
+  bottom: 10vh;
+
+}
+
+
+
+
+.div_fig_hills{
+
+  bottom: 0;
+
+  display: block;
+
+  height: 40vh;
+
+  position: absolute;
+
+  width: 100vw;
+
+}
+
+
+.div_fig_profile{
+
+  display: block;
+
+  height: 40vh;
+
+  padding-top: 10vh;
+
+  position: static;
+
+  width: 100vw;
+
+}
+
+
+
+.div_title_subtitle{
+
+  display: inline-block;
+
+  margin-top: 20vh;
+
+  position: absolute;
+
+  text-align: center;
+
+  width: 100vw;
+
+}
+
+
+
+
+
+
+/* ------- Paragraphs ------- */
+
+
+.paragraph_design_develop{
+
+  display: inline-block;
+
+  padding-top: 2vh;
+
+  width: 40vw;
+
+}
+
+
+
+.paragraph_footnote{
+
+  color: #53bd84;
+
+  font-family: "Montserrat", sans-serif;
+
+  left: 50%;
+
+  position: absolute;
+
+  text-align: center;
+
+  transform: translate(-50% ,  -50%);
+
+  width: 100vw;
+}
+
+
+
+
+.paragraph_maintext{
+
+  color: #3b403d;
+
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 2.5vh;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ______________________________________________________________________________________________ */
+
+/* __________________________________ ID SELECTORS _____________________________________________ */
+
+/* ______________________________________________________________________________________________ */
+
+
+
+
+
+
+/* ------------------- Index - Homepage -------------------- */
+
+
+
+#section_id_homepage{
+
+  background-color:  #ccedd2;
+
+  height: 100vh;
+
+  width: 100vw;
+
+}
+
+
+
+
+#fig_id_cloud_top{
+
+  position: absolute;
+
+  right: 15vw;
+
+  top: 20vh;
+
+  width: 10vw;
+
+}
+
+
+#fig_id_cloud_bottom{
+
+  left: 10vw;
+
+  position: absolute;
+
+  top: 40vh;
+
+  width : 10vw;
+
+}
+
+
+
+#fig_id_hills{
+
+  height: 40vh;
+
+  /*    Left: 50% is relative to the parent while the translate transform is
+        relative to the elements width/height. */
+
+  left: 50%;
+
+  position: relative;
+
+  transform: translate(-50% , 0);
+
+}
+
+
+
+
+
+
+
+/* --------------------- Index - About Me ----------------- */
+
+
+#fig_id_profile{
+
+  border-radius: 50%;
+
+  height: 30vh;
+
+  /*    Left: 50% is relative to the parent while the translate transform is
+        relative to the elements width/height. */
+
+  left: 50%;
+
+  position: relative;
+
+  top: 50%;
+
+  transform: translate(-50% , -50%);
+
+}
+
+
+
+#paragraph_id_intro{
+
+  left: 50%;
+
+  position: relative;
+
+  text-align: center;
+
+  transform: translate(-50% , 0);
+
+  width: 40vw;
+
+}
+
+
+
+/* -------------------- Index - Skills ------------------ */
+
+
+#fig_id_design{
+
+  display: inline;
+
+  position: absolute;
+
+  left: 20vw;
+
+  top: 0vh;
+
+  width : 10vw;
+
+}
+
+
+
+#fig_id_develop{
+
+  display: inline;
+
+  position: absolute;
+
+  right: 20vw;
+
+  top: 4vh;
+
+  width : 10vw;
+
+}
+
+
+#design_content{
+
+  right:10vw;
+
+}
+
+#develop_content{
+
+  left:20vw;
+
+  padding-top: 5vh;
+
+}
+
+
+
+
+
+
+
+/* -------------------- Index - Contact Me ------------------ */
+
+
+
+#paragraph_id_help{
+
+  left: 50%;
+
+  position: relative;
+
+  text-align: center;
+
+  top : 15vh;
+
+  transform: translate(-50% , 0);
+
+  width: 40vw;
+
+}
+
+
+#paragraph_id_available{
+
+  padding-top: 20vh;
+
+}
+
+
+
+
+#paragraph_id_bottomlinks{
+
+  font-size: 2.5vh;
+
+  top: 30%;
+
+}
+
+
+
+#paragraph_id_copywrite{
+
+  font-size: 1.5vh;
+
+  top: 75%;
+
+}
+
+
+
+#message{
+
+  background-color:  #53bd84;
+
+  display: inline-block;
+
+  left: 50%;
+
+  padding-top: 1.0vh;
+
+  padding-bottom: 1.0vh;
+
+  position: relative;
+
+  text-align: center;
+
+  top : 20vh;
+
+  transform: translate(-50% , 0);
+
+  width: 15vw;
+
+
+}
+
+#message:hover{
+
+    background-color: #ccedd2;
+
+}
+
+
+
+
+#trial{
+background-color:  red;
+}
+
+
+#trial2{
+background-color:  blue;
+}
